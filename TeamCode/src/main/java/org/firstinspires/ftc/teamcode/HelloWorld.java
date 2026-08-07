@@ -13,7 +13,7 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 public class HelloWorld{
     @Override
     public void init(){
-        telemetry.addData("Hello, world.") // First comment on java
+        telemetry.addData("Hello", "world."); // First comment on java
     }
 
     @Override
